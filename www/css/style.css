@@ -1,0 +1,88 @@
+/* Empty. Add your own CSS if you like */
+.sinAvatar{
+	background-color: white;
+	width: 100%;
+    height: 200px;
+    margin: 0 auto;
+}
+.hombre01{
+	background-image: url("../img/hombre01.png");
+	background-repeat: no-repeat;
+	background-size: 80%;
+	width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    margin-right: 45px;
+}
+.hombre02{
+	background-image: url("../img/hombre02.png");
+	background-repeat: no-repeat;
+	background-size: 80%;
+	width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    margin-right: 45px;
+}
+.mujer01{
+	background-image: url("../img/mujer01.png");
+	background-repeat: no-repeat;
+	background-size: 80%;
+	width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    margin-right: 45px;
+    
+}
+.mujer02{
+	background-image: url("../img/mujer02.png");
+	background-repeat: no-repeat;
+	background-size: 80%;
+	width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    margin-right: 45px;
+}
+
+#avSinAvatar{
+	background-color: white;
+	width: 100%;
+    height: 100px;
+    margin: 0 auto;
+}
+#avHombre01{
+	background-image: url("../img/hombre01.png");
+	background-repeat: no-repeat;
+	background-size: 80%;
+	width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    margin-left: -15px;
+}
+#avHombre02{
+	background-image: url("../img/hombre02.png");
+	background-repeat: no-repeat;
+	background-size: 80%;
+	width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    margin-left: -15px;
+}
+#avMujer01{
+	background-image: url("../img/mujer01.png");
+	background-repeat: no-repeat;
+	background-size: 80%;
+	width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    margin-left: -15px;
+    
+}
+#avMujer02{
+	background-image: url("../img/mujer02.png");
+	background-repeat: no-repeat;
+	background-size: 80%;
+	width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    margin-left: -15px;
+}

@@ -1,0 +1,34 @@
+<ion-modal-view style="height: 350px;
+    position: inherit;
+    width: 96%;
+    margin-left: 2%;
+    margin-top: 90px;
+    border-radius: 10px;">
+	<ion-header-bar class="bar-stable" style="background-color: #9E9E9E;">
+		<h1 class="title">Elegir Avatar</h1>
+	    <div class="buttons">
+	      <button class="button button-clear" ng-click="closeRegister()">Cerrar</button>
+	    </div>
+	    </ion-header-bar>
+	<ion-content>
+	<div style="text-align: center;"><p style="color:#b67b31;white-space: normal;font-size: 15px;">Mantén presionado el avatar para seleccionarlo.</p></div>
+	<ion-slide-box on-slide-changed="slideChanged($index)" style="text-align: center;">
+	  	<ion-slide>
+	  		<div class="hombre01" on-hold="GuardaFoto('hombre01')"></div>
+	  	</ion-slide>
+	    <ion-slide>
+	    	<div class="hombre02" on-hold="GuardaFoto('hombre02')"></div>
+	  	</ion-slide>
+	  	<ion-slide>
+	  		<div class="mujer01" on-hold="GuardaFoto('mujer01')"></div>
+	  	</ion-slide>
+	  	<ion-slide>
+	  		<div class="mujer02" on-hold="GuardaFoto('mujer02')"></div>
+	  	</ion-slide>
+	</ion-slide-box>
+
+
+	
+	</ion-content>
+
+</ion-modal-view>

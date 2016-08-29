@@ -1,0 +1,30 @@
+<ion-view title="Registrar" hide-back-button="false" id="page5" style="background-color:#33CD5F;">
+    <ion-content padding="true" class="has-header">
+        <form id="registrar-form2" class="list" name="FormEasy" ng-submit="FormEasy.$valid && registrar(vm)" novalidate>
+            <ion-list id="registrar-list2">
+                <label class="item item-input" id="registrar-input3">
+                    <span class="input-label">Nombres</span>
+                    <input type="text" ng-model="vm.Nombres" placeholder="" required>
+                </label>
+                <label class="item item-input" id="registrar-input4">
+                    <span class="input-label">Usuario</span>
+                    <input type="text" placeholder="" ng-model="vm.usuario" required>
+                </label>
+                <label class="item item-input" id="registrar-input5">
+                    <span class="input-label">Contraseña</span>
+                    <input type="password" placeholder="" ng-model="vm.pass" required>
+                </label>
+                <label class="item item-input" id="registrar-input6">
+                    <span class="input-label">Confirmar contraseña</span>
+                    <input type="password" placeholder="" ng-model="vm.confirmPass" ng-change="confirm()" required>
+                </label>
+                <div ng-if="confirmClave != null" style="background: WHITE;">
+                <center><p ng-if="!confirmClave" style="color:red">La contraseña no coincide</p>
+                <p ng-if="confirmClave" style="color:green">La contraseña coincide</p>
+                </center>
+                </div>
+            </ion-list>
+            <button id="registrar-button3" class="button button-energized  button-block" ng-click="validar(FormEasy.$valid)">Registrar</button>
+        </form>
+    </ion-content>
+</ion-view>

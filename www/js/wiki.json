@@ -1,0 +1,9 @@
+[{
+	"titulo": "Introducción",
+	"texto": "<p>En este curso aprenderá a programar desde 0, para tal fin usted tendrá que leer todo el contenido de esta sección llamada 'Wiki', aquí vera conceptos y ejemplos que le ayudaran a entender mejor y de forma dinámica lo que es y para que se usa la programación, además usted podrá luego de ver este contenido, ir a la página principal o al menú y allí elegir uno de los módulos tipo test que tenemos para usted, allí pondrá a prueba sus nuevos conocimientos! </p><br> Comencemos...",
+	"nomClassImg": ""
+}, {
+	"titulo": "¿Que es la programación?",
+	"texto": "<p>Se conoce como programación en ciencias de la computación a los pasos que se abordan para crear el código fuente de un programa informático. De acuerdo con estos pasos, el código se escribe, se prueba y se perfecciona.</p> <p>El software informático es aquel ejecutado por el hardware o dispositivos de una computadora, permitiendo que el usuario acceda a funciones y operaciones de todo tipo.Así,la programación es una de las actividades más determinantes en el desarrollo de sistemas eficientes, rápidos y amigables para todo tipo de usuarios.</p> <p>Se conoce como programadores a aquello encargados de desarrollar este código con instrucciones para que el software se comporte de una u otra manera de acuerdo con las órdenes que reciba.</p>",
+	"nomClassImg": ""
+}]

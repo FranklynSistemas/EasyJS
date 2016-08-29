@@ -1,0 +1,21 @@
+<ion-modal-view style="height: 92px;
+    position: inherit;
+    width: 96%;
+    margin-left: 2%;
+    margin-top: 150px;
+    border-radius: 10px;">
+	<ion-header-bar class="bar-stable" style="background-color: #9E9E9E;">
+		<h1 class="title">Acciones</h1>
+	    <div class="buttons">
+	      <button class="button button-clear" ng-click="closeRegister()">Cerrar</button>
+	    </div>
+	    </ion-header-bar>
+	<ion-content>
+	<center>
+	<div class="button-bar">
+	  <a class="button icon-left ion-camera button-energized" id="TakePhoto" ng-click="takeFoto()">Tomar foto</a>
+	  <a class="button icon-left ion-android-image button-energized" ng-click="choosePhoto()">Seleccionar foto</a>
+  	</div>
+	</ion-content>
+
+</ion-modal-view>

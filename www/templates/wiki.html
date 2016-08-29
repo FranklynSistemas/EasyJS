@@ -1,0 +1,25 @@
+<ion-view title="Wiki" hide-back-button="true" id="page2" style="background-color:#33CD5F;" class="Wiki">
+    <ion-content padding="true" class="has-header">
+    <ion-slide-box on-slide-changed="slideChanged($index)" style="text-align: center;">
+	  	<ion-slide ng-repeat="info in wiki">
+	  		 <div class="card">
+			  <div class="item item-divider">
+			    {{info.titulo}}
+			  </div>
+			  <div class="item item-text-wrap" style="text-align: justify;">
+			  <div id="{{info.nomClassImg}}"></div>
+			    <div compile="info.texto"></div>
+			  </div>
+			  <div class="item item-divider">
+			    <div class="button-bar">
+  					<a class="button icon-left ion-chevron-left button-clear button-dark" ng-click="previous()"></a>
+					 <a class="button icon-right  ion-chevron-right button-clear button-dark" ng-click="next()"></a>
+					  
+				</div>
+			  </div>
+			</div>
+	  	</ion-slide>
+	    
+	</ion-slide-box>
+    </ion-content>
+</ion-view>

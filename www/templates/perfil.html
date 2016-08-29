@@ -1,0 +1,19 @@
+<ion-view title="Perfil" hide-back-button="true" id="page6" style="background-color:#33CD5F;">
+    <ion-content padding="true" class="has-header">
+        <div style="margin: 0px; line-height: 250px; text-align: center; background-color: rgb(232, 235, 239);">
+            <i ng-click="CambiarFoto()" class="icon ion-ios-camera" style="font-size: 64px; color: rgb(136, 136, 136);     margin-top: -110px;float: right;" ></i>
+            <!--<img ng-src="{{prefil.foto}}" style="width: 80%;">-->
+            <div ng-if="perfil.foto===''" class="sinAvatar"></div>
+            <div ng-if="perfil.foto!=''" class="{{perfil.foto}}"></div>
+        </div>
+        <center><h3>{{perfil.Nombres}}</h3></center>
+        <hr>
+        <h3>Mis Notas</h3>
+        <ul>
+        	<li>Programación Básica: {{perfil.puntajes.Basico}}</li>
+        	<li>Condicionales: {{perfil.puntajes.Condicionales}}</li>
+        	<li>Bucles: {{perfil.puntajes.Bucles}}</li>
+        	<li>Funciones: {{perfil.puntajes.Funciones}}</li>
+        </ul>
+    </ion-content>
+</ion-view>

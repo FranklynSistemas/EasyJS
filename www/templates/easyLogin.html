@@ -1,0 +1,19 @@
+<ion-view title="Easy - Login" hide-back-button="true" id="page4" style="background-color:#33CD5F;">
+    <ion-content padding="true" class="has-header">
+        <form id="easyLogin-form1" class="list">
+            <ion-list id="easyLogin-list1">
+                <label class="item item-input" id="easyLogin-input1">
+                    <span class="input-label">Usuario</span>
+                    <input type="text" ng-model="vm.usuario" placeholder="Usuario">
+                </label>
+                <label class="item item-input" id="easyLogin-input2">
+                    <span class="input-label">Contraseña</span>
+                    <input type="password" ng-model="vm.pass" placeholder="Contraseña">
+                </label>
+            </ion-list>
+            <div class="spacer" style="height: 40px;"></div>
+            <button id="easyLogin-button1" class="button button-energized  button-block" ng-click="Ingresar()">Ingresar</button>
+            <a href="#" ui-sref="registrar" id="easyLogin-button2" style="border-radius:104px 104px 104px 104px;" class="button button-energized  button-block button-clear">O crear una cuenta</a>
+        </form>
+    </ion-content>
+</ion-view>
